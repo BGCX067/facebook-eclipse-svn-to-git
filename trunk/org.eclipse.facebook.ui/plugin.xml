@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="org.eclipse.facebook.internal.ui.views.FacebookView"
+            icon="$nl$/icons/obj16/fb_logo_obj.gif"
+            id="org.eclipse.facebook.ui.view1"
+            name="%fb.view.name"
+            restorable="true">
+      </view>
+   </extension>
+   
+   <!--
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="toolbar:org.eclipse.ui.trim.status">
+         <toolbar
+               id="org.eclipse.facebook.ui.trim">
+            <control
+                  class="org.eclipse.facebook.ui.FacebookQuickAccessControlContribution"
+                  id="contributions.trimItem">
+            </control>
+         </toolbar>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            categoryId="org.eclipse.facebook.ui.category"
+            description="Poke a friend"
+            id="org.eclipse.facebook.ui.command.poke"
+            name="poke">
+      </command>
+      <category
+            description="A list of facebook commands"
+            id="org.eclipse.facebook.ui.category"
+            name="Facebook">
+      </category>
+   </extension>
+   !-->
+
+</plugin>
